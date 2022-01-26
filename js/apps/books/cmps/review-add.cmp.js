@@ -8,7 +8,7 @@ export default {
         <input v-model.lazy="review.fullName" type="text" class="name-input" placeHolder="Please insert your full name"/>
         <textarea v-model.lazy="review.txt" class="form-control" id="review" rows="3" placeHolder="Add Your Review"></textarea>
         <div class="stars">
-            <span v-for="num in 5" class="fa fa-star" :class="{checked:num<=review.rate}" @click="changeColor(num)">{{num}}</span>
+            <span v-for="num in 5" class="star-color" :class="{checked:num<=review.rate}" @click="changeColor(num)">⭐</span>
         </div>
         {{review.rate}}
     <button>Submit</button>

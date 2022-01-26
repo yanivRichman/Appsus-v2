@@ -281,3 +281,7 @@ nav a {
     width: 200px;
     margin-bottom: 10px;
 }
+
+.star-color {
+cursor: pointer;
+}

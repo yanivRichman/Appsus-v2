@@ -1,7 +1,7 @@
 export default {
     props: ['description'],
     template: `
-      <p @click="isExpand=!isExpand"><span>Descriptuion: </span>{{textForDisplay}}
+      <p @click="isExpand=!isExpand"><span>Description: </span>{{textForDisplay}}
         <span v-if="!isExpand">...</span>
       </p>
     `,

@@ -27,6 +27,32 @@
     padding: 10px;
     justify-content: center;
     align-items: center;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 9px 5px rgba(19, 83, 134, 0.4);
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;   
+    margin-top: 20px;
+}
+
+.details-upper-section button{ 
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    margin-top: -200px;
+    margin-left: 515px;
+}
+
+.next-prev-btns{
+    border: 1px solid black;  
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: lightgray;
+}
+
+.next-btn{
+    margin-left: 450px;
 }
 
 h4 {
@@ -99,7 +125,7 @@ h4 {
 .sale-img-modal{
     height: 140px;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -150px;
     margin-left: 150px;
 
 }
@@ -253,4 +279,5 @@ nav a {
 
 .name-input {
     width: 200px;
+    margin-bottom: 10px;
 }

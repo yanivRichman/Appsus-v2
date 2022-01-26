@@ -6,16 +6,17 @@ import reviewAdd from '../cmps/review-add.cmp.js';
 export default {
     template: `
         <section v-if="book" class="book-details app-main">
-           <h3>Book Details:</h3>
+           <div class="details-upper-section">
            <h4>Book Name : {{book.title}}</h4>
            <p>Page Count : {{pageCount}}</p>
            <p>Published Date : {{publishedDate}}</p>
            <p>Price : <span :class="priceClass">{{this.book.listPrice.amount}} {{this.book.listPrice.currencyCode}}</span></p>
            <img class="sale-img-modal" v-if="book.listPrice.isOnSale" src='././img/Sale-icon.png'/>
            <long-text :description="book.description"></long-text>
-           <router-link :to="'/book/'+prevBookId">< Prev book</router-link>
+           <router-link class="next-prev-btns prev-btn" :to="'/book/'+prevBookId">< Prev book</router-link>
            <button @click="onClose" >Close</button>
-           <router-link :to="'/book/'+nextBookId">Next book ></router-link>
+           <router-link class="next-prev-btns next-btn":to="'/book/'+nextBookId">Next book ></router-link>
+           </div>
            <review-add :book="book" @review="saveReview"/>
            </fieldset>
            <fieldset class="reviews">

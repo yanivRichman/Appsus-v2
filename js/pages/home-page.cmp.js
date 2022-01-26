@@ -13,6 +13,10 @@ export default {
             <p class="home-txt"> Capture what’s on your mind.<br> Add notes, lists, photos, and video to Keep.</p>
            <img src="./img/notes.png"/>
         </div>
+        <div>
+        <p class="home-txt"> Check out your favorite books.<br> Search a book and add your own review.</p>
+       <img src="./img/books.png"/>
+    </div>
        </div>
    </section>
 `,

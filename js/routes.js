@@ -2,8 +2,8 @@ import homePage from './pages/home-page.cmp.js';
 import emailPage from './apps/mail/pages/mail-page.cmp.js';
 import newMail from './apps/mail/pages/mail-new.cmp.js';
 import keepPage from './apps/keep/pages/note-page.cmp.js';
-import bookApp from './apps/Books/pages/book-app.cmp.js';
-import bookDetails from './apps/Books/pages/book-details.cmp.js';
+import bookApp from './apps/books/pages/book-app.cmp.js';
+import bookDetails from './apps/books/pages/book-details.cmp.js';
 
 
 

@@ -7,7 +7,7 @@ export default {
             <li v-for="book in books" :key="book.id" class="book-preview-container" >
                 <book-preview :book="book" @click.native="log" />
                 <div class="actions">
-                    <button @click="remove(book.id)" >X</button>
+                    <button class="x-button" @click="remove(book.id)" >X</button>
                     <router-link :to="'/book/'+book.id" >Details</router-link>
                 </div>
             </li>

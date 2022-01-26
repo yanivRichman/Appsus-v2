@@ -67,16 +67,6 @@ iframe {
     grid-row-end: span 1;
 }
 
-.note-footer {
-opacity: 0;
-transition: 0.5s;
-}
-
-.note-footer:hover {
-    opacity: 1;
-
-}
-
 .icon {
     cursor: pointer;
 }

@@ -4,7 +4,7 @@ export default {
         <section class="note-filter">
             <div class="search flex space-between">
                 <form @submit.prevent="filter">  
-                   <input v-model.lasy="filterBy.searchTerm"  type="search" id="noteSearch" name="noteSearch" placeholder="Search" autocomplete="off"> 
+                   <input v-model.lasy="filterBy.searchTerm"  type="search" id="noteSearch" name="noteSearch" placeholder="Search note" autocomplete="off"> 
                 </form>
                    <select @change="onSelect" v-model="filterBy.select">
                        <option value="all">All</option>

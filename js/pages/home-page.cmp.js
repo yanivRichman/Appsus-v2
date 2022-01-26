@@ -15,7 +15,7 @@ export default {
         </div>
         <div>
         <p class="home-txt"> Check out your favorite books.<br> Search a book and add your own review.</p>
-       <img src="./img/books.png"/>
+       <img class="book-home-img" src="./img/books.png"/>
     </div>
        </div>
    </section>

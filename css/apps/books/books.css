@@ -1,8 +1,15 @@
-img {
+.book-preview-container p {
+    margin: 0;
+}
+
+.book-preview img {
     height: 250px;
     padding: 20px;
 }
 
+.x-button {
+    font-size: 20px;
+}
 
 /* filter */
 
@@ -73,10 +80,6 @@ h4 {
     padding: 10px;
 }
 
-.home-page img {
-    height: 90vh;
-}
-
 .red{
     color: red;
 }
@@ -85,7 +88,7 @@ h4 {
     color: green;
 }
 
-.sale-img {
+.book-preview .sale-img {
     height: 100px;
     position: absolute;
     margin-top: 240px;
@@ -227,13 +230,6 @@ span.checked {
     font-size: 40px;
     text-decoration: none;
     color: white;
-}
-
-input {
-    margin-bottom: 10px;
-    align-items: center;
-    width: 80px;
-    margin-left: 20px;
 }
 
 nav {

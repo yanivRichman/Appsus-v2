@@ -1,8 +1,8 @@
 export default {
     template: `
         <div class="book-filter">
-            <label>Search</label>
-            <input @input="filter" v-model="filterBy.title" type="text" placeholder="Search...">
+            <label></label>
+            <input @input="filter" v-model="filterBy.title" type="text" placeholder="Search book">
             <label>From price</label>
             <input @input="filter" v-model.number="filterBy.fromPrice" type="number" placeholder="Search...">
             <label>To price</label>

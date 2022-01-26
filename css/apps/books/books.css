@@ -14,7 +14,6 @@ img {
 
 .book-details {
     flex-direction: column;
-    background-color: rgb(209, 222, 237);
     border: 1px solid black;
     text-align: center;
     min-height: 90vh;

@@ -1,0 +1,64 @@
+/* import all files */
+@import url(parts/helpers.css);
+@import url(parts/fonts.css);
+@import url(parts/base.css);
+@import url(parts/helpers.css);
+@import url(cmps/app-home.css);
+@import url(cmps/user-msg.css);
+@import url(cmps/add-note.css);
+@import url(apps/email/mail-preview.css);
+@import url(apps/keep/note-preview.css);
+@import url(apps/keep/note-list.css);
+
+
+
+* {
+    box-sizing: border-box;
+    /* list-style: none; */
+
+}
+
+body {
+    text-align: center;
+    background-color: #f8f9fb;
+}
+
+.active-link {
+    color: blueviolet;
+    text-decoration: none;  
+}
+
+.app-header {
+    height: 100px;
+    background-color: #aecbeb;
+    box-shadow: 0px 0.5px 4px 0px #5a5959;
+    padding: 50px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.email-img {
+    width: 500px
+}
+
+.logo {
+    text-transform: uppercase;
+    font-family: aquire;
+    font-size: 2rem;
+    color: black;
+}
+
+.nav-bar{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.home-txt {
+    font-size: 1.3rem;
+}

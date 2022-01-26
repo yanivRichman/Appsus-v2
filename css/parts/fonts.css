@@ -1,0 +1,123 @@
+
+@font-face {
+    font-family: "fa";
+    src: url(../../fonts/fa/fa-solid-900.ttf);
+}
+
+@font-face {
+  font-family: "fa";
+  src: url(../../fonts/fa/fa-regular-400.ttf);
+}
+
+@font-face {
+  font-family: "fa";
+  src: url(../../fonts/fa/fa-brands-400.ttf);
+}
+
+@font-face {
+  font-family: aquire;
+  src: url(../../fonts/fa/AquireBold-8Ma60.otf);
+}
+ 
+.icon {
+    font-family: fa;
+}
+
+
+.trash::before {
+    font-family: fa;
+      content: '\f2ed'
+}
+
+.palette::before {
+  font-family: fa;
+  content: '\f53f'
+}
+
+.pin::before {
+  font-family: fa;
+  content: '\f08d'
+}
+
+.vid::before {
+  font-family: fa;
+  content: '\f167'
+}
+
+.img::before {
+  font-family: fa;
+  content: '\f03e'
+}
+
+.todo::before {
+  font-family: fa;
+  content: '\f022'
+}
+
+.txt::before {
+  font-family: fa;
+  content: '\f031'
+}
+
+.txt::before {
+  font-family: fa;
+  content: '\f031'
+}
+
+.edit::before {
+  font-family: fa;
+  content: '\f044'
+}
+
+.duplicate::before {
+  font-family: fa;
+  content: '\f24d'
+}
+
+/* .btnColor::before {
+  font-family: fa;
+  content: '\f111'
+} */
+
+
+/* email icons and fonts */
+
+.envelop-open::before {
+    font-family: fa;
+      content: '\f2b6'
+}
+
+.envelop-close::before {
+  font-family: fa;
+    content: '\f0e0'
+}
+
+.search-icon::before {
+  font-family: fa;
+    content: '\f002'
+}
+
+.star-icon::before {
+  font-family: fa;
+    content: '\f005'
+}
+
+.inbox-icon::before {
+  font-family: fa;
+  content: '\f01c'
+}
+
+.sent-mail::before {
+  font-family: fa;
+  content: '\f14d'
+}
+
+.drafts-icon::before {
+  font-family: fa;
+  content: '\f3a1'
+}
+
+.compose-icon::before {
+  font-family: fa;
+  content: '\f067'
+}

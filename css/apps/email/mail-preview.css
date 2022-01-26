@@ -1,0 +1,192 @@
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-icon {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%),
+        0 1px 3px 1px rgb(60 64 67 / 15%);
+    background: white;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: 0;
+    color: #5f6368;
+    margin: 20px;
+    transition: all 0.4s;
+    height: 50px;
+    text-decoration: none;
+    width: 180px; 
+}
+
+.New-Message {
+    background-color: black;
+    color: white;
+}
+
+.mail-preview {
+    text-align: start;
+}
+
+.font-bold {
+    font-weight:bold;
+}
+
+.font-normal{
+    font-weight:normal;
+}
+
+.mail-filter {
+    margin-top: 10px;
+}
+
+.filters-btn{
+    height: 25px;
+    font-size: 16px;
+}
+
+.subject-body {
+    width: 900px;
+    cursor: pointer;
+    /* font-size: 18px; */
+
+}
+
+.mail-body {
+    color: gray;
+}
+
+.mail-name {
+    width: 130px;
+    padding: 10px;
+    /* font-size: 18px; */
+}
+
+.mail-sentAt {
+    width: 90px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.new-mail {
+    padding-left: 500px; 
+    padding-right: 500px; 
+
+}
+
+.new-mail-body {
+    height: 300px;
+}
+
+.send-btn {
+    color: white;
+    background: #1a73e8;
+    text-align: center;
+    padding: 12px 17px;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.4s;
+    width: 100px;
+    margin-left: 0;
+}
+
+.compose-btn {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%),
+        0 1px 3px 1px rgb(60 64 67 / 15%);
+    background: white;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    border: 0;
+    color: #5f6368;
+    cursor: pointer;
+    margin: 20px;
+    transition: all 0.4s;
+    height: 50px;
+    text-decoration: none;
+    width: 180px;
+}
+
+button {
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.right-icons {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+.draft {
+    cursor: not-allowed !important;
+}
+
+.email-menu {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-top: 10px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: lightblue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+.star-gold{
+    color: gold;
+}
+
+.mail-preview-container {
+    border-bottom: 1px dotted gray;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+

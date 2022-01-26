@@ -1,0 +1,13 @@
+
+.notes-preview-container {
+    width: 350px;
+    padding: 10px;
+    /* border: 1px solid gainsboro; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 0px #aaa9a9;
+    /* margin-bottom: 20px; */
+}
+
+.notes-preview-container img {
+    width: 330px
+}

@@ -8,7 +8,7 @@ export default {
                 <book-preview :book="book" @click.native="log" />
                 <div class="actions">
                     <button class="x-button" @click="remove(book.id)" >X</button>
-                    <router-link :to="'/book/'+book.id" >Details</router-link>
+                    <router-link :to="'/book/'+book.id" class="details-button">Details</router-link>
                 </div>
             </li>
         </ul>

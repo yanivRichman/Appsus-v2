@@ -47,10 +47,13 @@
 
 .subject-body {
     width: 900px;
-    cursor: pointer;
-    /* font-size: 18px; */
-
-}
+    cursor: pointer;}
+    @media (max-width: 1550px) {
+        .subject-body {
+          width: 750px; } }
+    @media (max-width: 1400px) {
+        .subject-body {
+           width: auto; } }
 
 .mail-body {
     color: gray;
@@ -110,11 +113,69 @@
     width: 180px;
 }
 
+@media (max-width: 1000px) {
+    .compose-btn { 
+       margin-top: 10px; 
+       font-size: 1rem;
+       padding: 15px;
+
+    }
+}
+
+@media (max-width: 700px) {
+    .compose-btn { 
+        font-size: 0.8rem;
+        padding: 15px
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .email-menu-container{
+         flex-direction: row;
+         height: 40px;
+         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+.email-menu-container .star-icon {
+    display: none;
+}
+.draft {
+    display: none;
+}
+.mail-body{
+    display: none;
+}
+.mail-name{
+    display: none;
+}
+.mail-subject{
+    /* background-color: tomato; */
+    width: 80px;
+}
+}
+
 .email-menu-container button {
     background-color: white;
     margin-right: 10px;
     margin-left: 20px;
 }
+
+@media (max-width: 1000px) {
+    .email-menu-container button{
+        height: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-mail{
+         flex-direction: column;    }
+   }
+
+   
+
 
 .right-icons {
     margin-left: 10px;

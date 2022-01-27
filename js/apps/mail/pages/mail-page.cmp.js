@@ -7,12 +7,12 @@ export default {
     template: `
     <section class="mail-page">
         <mail-filter @filtered="setFilter" />
-        <div class="flex">
+        <div class="flex main-mail">
         <div class="email-menu-container flex-column">
             <router-link to="/mail/new" class="compose-btn compose-icon"> Compose</router-link>
             <button @click="setFilter({select:'isInbox',str:''})" class="email-menu inbox-icon"> Inbox</button>
             <button @click="setFilter({select:'isStar',str:''})" class="email-menu star-icon"> starred</button>
-            <button @click="setFilter({select:'isSent',str:''})" class="email-menu sent-mail"> Sent Mail</button>
+            <button @click="setFilter({select:'isSent',str:''})" class="email-menu sent-mail"> Sent</button>
             <button class="email-menu drafts-icon draft"> Drafts</button>
         </div>
        <mail-list class="mail-list" :mails="mailsToShow" @remove="removeMail"/>

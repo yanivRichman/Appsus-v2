@@ -72,10 +72,23 @@
 }
 
 .new-mail {
-    padding-left: 500px; 
-    padding-right: 500px; 
-
+    padding-left: 400px; 
+    padding-right: 400px; 
 }
+
+@media (max-width: 1200px) {
+.new-mail {
+    padding-left: 250px;
+    padding-right: 250px;
+}
+}
+
+@media (max-width: 800px) {
+    .new-mail {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    }
 
 .new-mail-body {
     height: 300px;

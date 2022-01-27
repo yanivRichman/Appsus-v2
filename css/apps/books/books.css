@@ -20,6 +20,28 @@
     padding: 20px;
 }
 
+@media (max-width: 800px) {
+
+.book-filter input {
+width: 100px;}
+}
+
+@media (max-width: 600px) {
+.book-filter{
+/* background-color: tomato; */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.book-filter label {
+    display: none;
+}
+.book-filter input {
+    width: 200px;}
+    
+    }
+
 /* details */
 
 .book-details {
@@ -43,7 +65,35 @@
     height: 50px;
     width: 100px;
     margin-top: -200px;
-    margin-left: 515px;
+    margin-left: 280px;
+}
+
+@media (max-width: 850px) {
+
+.details-upper-section button{ 
+    margin-top: -200px;
+    margin-left: 220px;
+}
+.next-btn{
+    margin-left: auto;
+}
+}
+
+
+@media (max-width: 700px) {
+
+    .details-upper-section button{ 
+        margin-top: -120px;
+        margin-left: 115px;
+        height: 25px;
+        width: 50px;
+    }
+    .sale-img-modal {
+        height: auto;
+        position: absolute;
+        margin-top: -150px;
+        margin-left: -350px;
+    }
 }
 
 .next-prev-btns{
@@ -54,9 +104,6 @@
     background-color: lightgray;
 }
 
-.next-btn{
-    margin-left: 450px;
-}
 
 h4 {
     text-transform: capitalize;
@@ -132,11 +179,10 @@ h4 {
 }
 
 .sale-img-modal{
-    height: 140px;
+    height: 40px;
     position: absolute;
-    margin-top: -150px;
-    margin-left: 150px;
-
+    margin-top: -40px;
+    margin-left: -110px;
 }
 
 .actions {

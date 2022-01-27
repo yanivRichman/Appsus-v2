@@ -275,8 +275,11 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
-}
+    color: white;}
+    @media (max-width: 600px) {
+        nav a {
+            font-size: 0.6rem } }
+
 
 .shown {
     display: block;

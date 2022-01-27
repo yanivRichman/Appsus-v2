@@ -1,3 +1,21 @@
 .book-home-img {
-   width: 500px ;
+   width: 500px ;}
+   @media (max-width: 600px) {
+      .book-home-img{
+         width: 300px ;;
+      }
+   }
+
+
+
+@media (max-width: 1450px) {
+   .home-page-flex{
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 750px) {
+    h1 {
+       font-size: 2rem;
+    }
 }

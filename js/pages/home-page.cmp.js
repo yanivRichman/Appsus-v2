@@ -3,7 +3,7 @@ export default {
     template: `
    <section> 
        <h1>Let's help you Get things DONE!</h1>
-       <div class="flex space-around">
+       <div class="home-page-flex flex space-around">
        <div class="">
              <p class="home-txt"> Meet your new Email inbox. <br> decide which emails you want to read and when. </p>
         

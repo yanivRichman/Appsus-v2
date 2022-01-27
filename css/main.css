@@ -33,7 +33,6 @@ body {
     background-color: #aecbeb;
     box-shadow: 0px 0.5px 4px 0px #5a5959;
     padding: 50px;
-
 }
 
 a {
@@ -41,23 +40,35 @@ a {
 }
 
 .email-img {
-    width: 500px
-}
+    width: 500px;}
+    @media (max-width: 600px) {
+        .email-img {
+            width: 300px; } }
 
 .logo {
     text-transform: uppercase;
     font-family: aquire;
     font-size: 2rem;
-    color: black;
-}
+    color: black;}
+    @media (max-width: 600px) {
+        .logo {
+            font-size: 0.6rem } }
 
 .nav-bar{
     font-size: 1.5rem;
 }
 
+
+
 h1{
-    font-size: 3rem;
-}
+    font-size: 3rem;}
+    @media (max-width: 740px) {
+        h1 {
+            font-size: 2rem } }
+            @media (max-width: 600px) {
+                h1 {
+                    font-size: 1.5rem } }
+
 
 .home-txt {
     font-size: 1.3rem;

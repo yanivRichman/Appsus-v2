@@ -1,21 +1,116 @@
 .book-home-img {
-   width: 500px ;}
-   @media (max-width: 600px) {
-      .book-home-img{
-         width: 300px ;;
-      }
-   }
-
-
+  width: 500px;
+}
+@media (max-width: 600px) {
+  .book-home-img {
+    width: 300px;
+  }
+}
 
 @media (max-width: 1450px) {
-   .home-page-flex{
-      flex-direction: column;
-   }
+  .home-page-flex {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 750px) {
-    h1 {
-       font-size: 2rem;
-    }
+  h1 {
+    font-size: 2rem;
+  }
 }
+
+.toggle-menu-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.75rem;
+  padding: 20px;
+  display: none;
+}
+@media (max-width: 740px) {
+  .toggle-menu-btn {
+    display: block;
+  }
+}
+
+/*----------  Font Awesome  ----------*/
+@font-face {
+  font-family: "fontawesome";
+  src: url("../../fonts/fontawesome/FontAwesome.otf");
+  src: url("../../fonts/fontawesome/fontawesome-webfont.eot")
+      format("embedded-opentype"),
+    url("../../fonts/fontawesome/fontawesome-webfont.woff2") format("woff2"),
+    url("../../fonts/fontawesome/fontawesome-webfont.woff") format("woff"),
+    url("../../fonts/fontawesome/fontawesome-webfont.ttf") format("truetype"),
+    url("../../fonts/fontawesome/fontawesome-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  font-family: fontawesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+@media (max-width: 740px) {
+   .fa {
+      margin-right: -50px;}
+}
+
+.toggle-menu-screen {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  background: rgba(42, 42, 42, 0.6);
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  cursor: pointer;
+  transition: opacity 0.5s;
+}
+@media (max-width: 740px) {
+  .toggle-menu-screen {
+    display: block;
+  }
+}
+.open .toggle-menu-screen {
+  visibility: visible;
+  opacity: 1;
+}
+
+ 
+ @media (max-width: 740px) {
+   .main-menu {
+     flex-direction: column;
+     position: fixed;
+     top: -24px;
+     right: -50px;
+     z-index: 300;
+     background: #aecbeb;
+     height: 100vh;
+     transition: transform 1s;
+     transform: translate(100%, 0); }
+     .open .main-menu {
+       transform: translate(0, 0); }
+     .main-menu a {
+        display: flex;
+       height: auto;
+       line-height: 1;
+       padding: 20px 0;
+       width: 60vw;
+       border: none;
+       border-bottom: 1px solid #1e1e1e; }
+       .main-menu a.active {
+         border-width: 1px; } }
+
+
+
+         ul.main-menu{
+padding: 5px;        }

@@ -14,5 +14,12 @@
         <script src="lib/vue-router.js"></script>
         <script src="lib/axios.js"></script>
         <script type="module" src="js/main.js"></script>
+        <script>
+            function toggleMenu() {
+                var mainMenu = document.getElementById('mainMenu');
+                console.log(mainMenu);
+                mainMenu.classList.toggle('open');
+            }
+        </script>
     </body>
 </html>

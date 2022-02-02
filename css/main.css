@@ -35,6 +35,13 @@ body {
     padding: 50px;
 }
 
+
+@media (max-width: 740px) {
+    .app-header{
+       padding: 1px;
+    }
+}
+
 a {
     text-decoration: none;
 }
@@ -50,11 +57,8 @@ a {
     font-family: aquire;
     font-size: 2rem;
     color: black;}
-    @media (max-width: 600px) {
-        .logo {
-            font-size: 0.6rem } }
 
-.nav-bar{
+    .nav-bar{
     font-size: 1.5rem;
 }
 

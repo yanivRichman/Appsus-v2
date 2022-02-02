@@ -234,7 +234,6 @@ a {
   }
   
   .router-link-exact-active {
-    border-radius: 5px;
     color: lightskyblue;
   }
 
@@ -321,11 +320,14 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;}
-    @media (max-width: 600px) {
-        nav a {
-            font-size: 0.6rem } }
+    color: white;
+    margin-left: 10px;
+}
 
+@media (max-width: 740px) {
+    nav a {
+        margin-left: 0px;
+    } }
 
 .shown {
     display: block;
